@@ -30,7 +30,7 @@ public enum CounterMode {
     @IBInspectable var counterTextColor: UIColor = .black
     @IBInspectable var counterErrorTextColor: UIColor = .red
     
-    private func updateCounter(contentLength: Int) {
+    internal func updateCounter(contentLength: Int) {
         switch counterMode {
         case .descending:
             text = "\(counterMaxLength - contentLength)"
