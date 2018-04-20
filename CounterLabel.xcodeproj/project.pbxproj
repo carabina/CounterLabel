@@ -10,7 +10,7 @@
 		F7290EC7208A4EBE0045A0F1 /* CounterLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7290EBD208A4EBD0045A0F1 /* CounterLabel.framework */; };
 		F7290ECC208A4EBE0045A0F1 /* CounterViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7290ECB208A4EBE0045A0F1 /* CounterViewTests.swift */; };
 		F7290ECE208A4EBE0045A0F1 /* CounterLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F7290EC0208A4EBD0045A0F1 /* CounterLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7290ED8208A72E60045A0F1 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7290ED7208A72E60045A0F1 /* CounterView.swift */; };
+		F7290ED8208A72E60045A0F1 /* CounterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7290ED7208A72E60045A0F1 /* CounterLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,7 @@
 		F7290EC6208A4EBE0045A0F1 /* CounterLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7290ECB208A4EBE0045A0F1 /* CounterViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewTests.swift; sourceTree = "<group>"; };
 		F7290ECD208A4EBE0045A0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7290ED7208A72E60045A0F1 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		F7290ED7208A72E60045A0F1 /* CounterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			children = (
 				F7290EC0208A4EBD0045A0F1 /* CounterLabel.h */,
 				F7290EC1208A4EBD0045A0F1 /* Info.plist */,
-				F7290ED7208A72E60045A0F1 /* CounterView.swift */,
+				F7290ED7208A72E60045A0F1 /* CounterLabel.swift */,
 			);
 			path = CounterLabel;
 			sourceTree = "<group>";
@@ -198,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7290ED8208A72E60045A0F1 /* CounterView.swift in Sources */,
+				F7290ED8208A72E60045A0F1 /* CounterLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
